@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>RNNoiseSharp</id>
+    <version>1.0.0</version>
+    <authors>Georgios Sgouridis</authors>
+    <description>.NET Wrapper Library for Mozilla's RNNoise</description>
+    <language>en-US</language>
+    <projectUrl>https://github.com/gsgou/RNNoiseSharp</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">BSD-3-Clause</license>
+    <copyright>Copyright 2022</copyright>
+  </metadata>
+  <files>
+    <!-- Android -->
+    <file src="RNNoiseSharp.Android/bin/Release/RNNoiseSharp.dll" target="lib/MonoAndroid10/RNNoiseSharp.dll" />
+    <file src="RNNoiseSharp.Android/bin/Release/RNNoiseSharp.pdb" target="lib/MonoAndroid10/RNNoiseSharp.pdb" />
+    <!-- iOS -->
+    <file src="RNNoiseSharp.iOS/bin/Release/RNNoiseSharp.dll" target="lib/Xamarin.iOS10/RNNoiseSharp.dll" />
+    <file src="RNNoiseSharp.iOS/bin/Release/RNNoiseSharp.pdb" target="lib/Xamarin.iOS10/RNNoiseSharp.pdb" />
+    <!-- netstandard2.0 -->
+    <file src="RNNoiseSharp.Standard/bin/Release/netstandard2.0/RNNoiseSharp.dll" target="lib/netstandard2.0/RNNoiseSharp.dll" />
+    <file src="RNNoiseSharp.Standard/bin/Release/netstandard2.0/RNNoiseSharp.pdb" target="lib/netstandard2.0/RNNoiseSharp.pdb" />
+  </files>
+</package>
