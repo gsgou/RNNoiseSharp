@@ -12,6 +12,8 @@ Usage
 
 It operates on RAW 16-bit (machine endian) mono PCM files sampled at 48 kHz.
 
+Each frame contains 480 samples.
+
 An example app is located in the `Sample` directory and includes examples of common tasks.
 
 License
